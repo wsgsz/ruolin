@@ -1,0 +1,138 @@
+{
+  "pages": [
+    "pages/index/project/main",
+    "pages/index/index/main",
+    "pages/index/circle/main",
+    "pages/index/userinfo/main",
+    "pages/index/information/main",
+    "pages/index/type/main"
+  ],
+  "subPackages": [
+  {
+    "root": "pages/circle/",
+    "pages": [
+      "comment/main",
+      "allFollow/main",
+      "allCircle/main",
+      "createTopic/main",
+      "created/main",
+      "list/main",
+      "detail/main",
+      "detailTopic/main",
+      "newCreate/main",
+      "newCreate/Calender/main",
+      "newCreate/member/main",
+      "newCreate/rankingList/main",
+      "punch/main",
+      "userinfo/main"
+    ]
+  },
+  {
+    "root": "pages/project/",
+    "pages": [
+      "notice/main",
+      "notice/noticeList/main",
+      "Release/main",
+      "searchbar/main",
+      "details/main",
+      "details/locking/main",
+      "hotspot/main",
+      "preheat/main",
+      "share/index/main",
+      "share/ranking/main",
+      "share/transmit/main",
+      "stars/main",
+      "share/ptp/main",
+      "comment/main",
+      "preheat/detail/main"
+    ]
+  },
+  {
+    "root": "pages/userinfo/",
+    "pages": [
+      "project/main",
+      "about/main",
+      "Collection/main",
+      "energyBean/main",
+      "forwarding/main",
+      "help/main",
+      "pcLogin/main",
+      "personal/main",
+      "questionnaire/main",
+      "userCreated/main",
+      "infor/main",
+      "infor/autograph/main",
+      "infor/industry/main",
+      "infor/Location/main",
+      "infor/nickname/main",
+      "infor/school/main"
+    ]
+  },
+  {
+    "root": "pages/information/",
+    "pages": [
+      "notice/main",
+      "websorket/main"
+    ]
+  }],
+  "preloadRule":
+  {
+    "pages/index/project/main":
+    {
+      "network": "all",
+      "packages": ["pages/project"]
+    },
+    "pages/index/circle/main":
+    {
+      "network": "all",
+      "packages": ["pages/circle"]
+    },
+    "pages/index/userinfo/main":
+    {
+      "network": "all",
+      "packages": ["pages/userinfo"]
+    },
+    "pages/index/information/main":
+    {
+      "network": "all",
+      "packages": ["pages/information"]
+    }
+  },
+  "window":
+  {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "若邻汇",
+    "navigationBarTextStyle": "black"
+  },
+   "tabBar":
+  {
+    "selectedColor": "#d61518",
+    "backgroundColor": "#f6f6f6",
+    "list": [
+    {
+      "pagePath": "pages/index/project/main",
+      "text": "项目",
+      "iconPath": "/static/image/project_un.png",
+      "selectedIconPath": "/static/image/project_act.png"
+    },
+    {
+      "pagePath": "pages/index/circle/main",
+      "text": "圈子",
+      "iconPath": "/static/image/circle_un.png",
+      "selectedIconPath": "/static/image/circle_act.png"
+    },
+    {
+      "pagePath": "pages/index/information/main",
+      "text": "消息",
+      "iconPath": "/static/image/information_un.png",
+      "selectedIconPath": "/static/image/information_act.png"
+    },
+    {
+      "pagePath": "pages/index/userinfo/main",
+      "text": "我的",
+      "iconPath": "/static/image/user_un.png",
+      "selectedIconPath": "/static/image/user_act.png"
+    }]
+  }
+}

@@ -1,0 +1,145 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"appid": "wxb779dcd64ebf3736",
+	"projectname": "%E8%8B%A5%E9%82%BB",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 14,
+			"list": [
+				{
+					"id": -1,
+					"name": "帮助",
+					"pathName": "pages/userinfo/help/main",
+					"query": "",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "-Lo7i_-fRX0qK7aOsER_A4vyPExk6zmD9acqGB9xFcM@cr4dev",
+						"shareKey": "ToRJozUWMU3eanAjKcAUlakJK1nYYXMkCtl3KjciZ2jGOANmfDIcKbesMhW_oPTJ2cUSWMpwtOPk5Cs5baeOEw~~"
+					}
+				},
+				{
+					"id": 1,
+					"name": "打卡",
+					"pathName": "pages/circle/punch/main",
+					"query": "circle_Id=2&circle={\"circle_name\":\"服装圈\",\"circle_image\":\"https://m.ruolingroup.com/upload/20180926/89beb9a424e4f4d952b9388089b7ab9a.jpg\",\"uid\":4,\"circleAttendance\":1}",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "xiangqing",
+					"pathName": "pages/project/preheat/detail/main",
+					"query": "objId=1",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "分享",
+					"pathName": "pages/project/share/index/main",
+					"query": "objId=1",
+					"scene": "1001"
+				},
+				{
+					"id": 4,
+					"name": "PC",
+					"pathName": "pages/userinfo/questionnaire/main",
+					"query": "objId=1",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/index/userinfo/main",
+					"query": "objId=1",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "话题",
+					"pathName": "pages/circle/detailTopic/main",
+					"query": "topicId=1&circleId=1",
+					"scene": "1001"
+				},
+				{
+					"id": 7,
+					"name": "圈子",
+					"pathName": "pages/circle/detail/main",
+					"query": "circle_id=24",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "完善资料",
+					"pathName": "pages/userinfo/personal/main",
+					"query": "circle_id=24",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "修改资料",
+					"pathName": "pages/userinfo/infor/main",
+					"query": "circle_id=24",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/project/comment/main",
+					"query": "objId=3&userId=38&comId=9&sen=send",
+					"scene": "1001"
+				},
+				{
+					"id": 11,
+					"name": "项目详情",
+					"pathName": "pages/project/details/main",
+					"query": "objId=1",
+					"scene": "1001"
+				},
+				{
+					"id": 12,
+					"name": "demo",
+					"pathName": "pages/userinfo/infor/autograph/main",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "消息",
+					"pathName": "pages/index/information/main",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "公告",
+					"pathName": "pages/project/notice/main",
+					"query": "objId=1"
+				}
+			]
+		}
+	}
+}
